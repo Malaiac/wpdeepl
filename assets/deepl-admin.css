@@ -1,0 +1,144 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ul.deepl_corrections li{
+	transition: all 0.2s;
+	margin-bottom: 20px;
+}
+
+.deepl_translation_results{
+	font-weight: bold;
+}
+.deepl_error{
+	margin-bottom:.4em;
+	color: #900;
+}
+#deepl_warning{
+	margin-bottom:.4em;
+	color: #C60;
+}
+#deepl_success{
+	color: #090;
+}
+
+#deepl_hidden_errors_number{
+	margin-top: 0;
+	color: #666;
+	font-weight: bold;
+	display: none;
+}
+
+.deepl_correction_message{
+	clear:left;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding: 6px 1em;
+	background: #E4E4E4;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#deepl-form .form-table table th {
+ width: 300px;
+	padding: 1px 5px;
+	vertical-align: top;
+}
+#deepl-form .form-table td{
+ vertical-align: top;
+}
+#deepl-form .form-table td:first-child{
+ width: 150px;
+}
+#deepl-form .form-table table td{
+	padding: 1px 5px;
+}
+#deepl-form .form-table table .select_all_rules_row td{
+ padding-bottom: 15px;
+}
+
+.language_selection{
+	float:right;
+}
+.language_selection label{
+	margin-right: 5px;
+}
+.translation_button{
+	display:block;
+}
+
+#deepl_box .spinner{
+	margin-top: 6px;
+	float: none;
+}
+#deepl_translation{
+	float: left;
+}
+
+#deepl_support a:hover{
+	padding-left:6px;
+	opacity:0.9
+}
+
+#credit a{
+ background: transparent url( ../img/logo.png ) 0 0 no-repeat;
+ display: inline-block;
+ position: relative;
+ overflow: hidden;
+	text-indent: 64px;
+ height: 32px;
+ width: 64px;
+	vertical-align: middle;
+	transition: all 0.2s;
+	margin-left: 10px;
+}
+#credit a:hover{
+	opacity: 0.7;
+} 
+
+	.progress-bar {
+background-color: #1a1a1a;
+height: 30px;
+padding: 5px;
+width: 500px;
+margin: 5px 0;
+border-radius: 5px;
+box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+.progress-bar span {
+display: inline-block;
+float: left;
+height: 100%;
+border-radius: 3px;
+box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+transition: width .4s ease-in-out;
+}
+.blue span {
+background-color: #34c2e3;
+color: #fff;
+}
+.progress-bar span b {
+	  padding: .1em;
+    vertical-align: -webkit-baseline-middle;
+    
+    padding-left: 1em;
+}
+.orange span {
+background-color: #fecf23;
+}
+.progress-text {
+text-align: right;
+color: #000;
+margin: -25px 0px; 
+}
+
+.request_time {
+	float: right; 
+	margin-top: .5rem;
+}
