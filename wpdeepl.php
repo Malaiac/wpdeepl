@@ -106,5 +106,3 @@ function deepl_init() {
 
 	load_plugin_textdomain( 'wpdeepl', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
-
-
